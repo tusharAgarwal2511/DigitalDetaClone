@@ -1,0 +1,19 @@
+.back-to-top-button {
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 50px;
+    right: 50px !important;
+    padding: 5px !important;
+    border-radius: 50px;
+    font-size: 22px;
+    color: white !important;
+    background-color: blue;
+}
+
+@media only screen and (max-width: 700px) {
+    .back-to-top-button {
+        bottom: 15px !important;
+        right: 15px !important;
+    }
+}

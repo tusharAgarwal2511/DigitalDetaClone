@@ -1,0 +1,36 @@
+.container-ct {
+    margin: 0 10% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carousel-container {
+    width: 450px;
+    height: 400px;
+}
+
+.testimonial-person {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.carousel-container h4 {
+    color: darkblue;
+    font-size: 25px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: gray;
+}
+
+.carousel-container img {
+    width: 100px;
+}
+
+.testimonial-img {
+    height: 350px;
+    width: 350px;
+}

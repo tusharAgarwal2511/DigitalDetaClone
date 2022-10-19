@@ -1,0 +1,38 @@
+.content-revenue-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content-revenue-text-div {
+    width: 400px;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-revenue-text-div {
+        text-align: center;
+    }
+}
+
+h1 {
+    color: darkblue;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.content-revenue-text-div button {
+    text-align: center;
+}
+
+.button {
+    background: red;
+    border-radius: 5px;
+    padding: 10px 30px 10px;
+    border: none;
+    outline: none;
+    align-self: center;
+    color: white;
+}

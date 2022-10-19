@@ -1,0 +1,44 @@
+.container-pc {
+    text-align: center;
+    padding: 50px 20px 50px;
+    margin: 10px;
+    background-color: rgb(238, 234, 255);
+    height: 550px;
+    width: 335px;
+    border-radius: 10px;
+}
+
+.plan {
+    font-size: 20px;
+    color: black !important;
+}
+
+.amount {
+    color: black !important;
+    font-size: 50px;
+    margin-bottom: 70px !important;
+}
+
+.duration {
+    font-size: 15px;
+    font-weight: 100;
+    color: grey !important;
+
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(61, 61, 61) !important;
+}
+
+.package-button {
+
+    background: red;
+    border-radius: 5px;
+    padding: 10px 30px 10px;
+    border: none;
+    outline: none;
+    align-self: center;
+    color: white;
+}

@@ -1,0 +1,44 @@
+.heading-content-div {
+
+    width: 100vw;
+    height: 85vh;
+    background-color: rgb(97, 66, 222);
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading-content-div {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .heading-content-div {
+        height: 30vh;
+    }
+}
+
+.heading-text {
+    color: white !important;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .heading-text {
+        font-size: 16px;
+        margin: 10px auto 20px;
+    }
+}
+
+
+.heading-animation {
+    box-sizing: border-box;
+    width: 70%;
+    align-self: center;
+}
