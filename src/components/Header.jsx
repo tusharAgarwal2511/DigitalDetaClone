@@ -43,7 +43,7 @@ const Header = () => {
 
                         <a className='nav-item' >
                             <div class="dropdown">
-                                <span>Services<i class="fa-solid fa-caret-down"></i></span>
+                                <span>Services<i class="ri-arrow-drop-down-fill"></i></span>
                                 <div class="dropdown-content">
                                     <h5 className='dropdown-element'>SEO</h5>
                                     <h5 className='dropdown-element'>App Development</h5>
@@ -82,7 +82,7 @@ const Header = () => {
                     <li>
                         <a href='#' className='nav-item' >
                             <div class="dropdown">
-                                <span>Career<i class="fa-solid fa-caret-down"></i></span>
+                                <span>Career<i class="ri-arrow-drop-down-fill"></i></span>
                                 <div class="dropdown-content">
                                     <h5 className='dropdown-element'>Terms and Condition</h5>
                                     <h5 className='dropdown-element'>Graphic Design</h5>
